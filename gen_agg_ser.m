@@ -1,6 +1,6 @@
 function [agg_ser] = gen_agg_ser(T,N,params,t)
 %Creates cross-sectional aggregated series for long memory generation.
-%Syntax:
+%Syntax:s
 %[agg_ser] = gen_agg_ser(T,N,params,t)
 %
 %Inputs:
