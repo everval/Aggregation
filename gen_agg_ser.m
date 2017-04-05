@@ -9,6 +9,9 @@ function [agg_ser] = gen_agg_ser(T,N,params,t)
 %   params = [p q] - parameters of the beta distribution
 %   t - burn-in initial sample. Default t = 100
 %
+%This version requires the parfor command from the parallel toolbox for
+%speed
+%
 %J. Eduardo Vera-Valdés
 %eduardo@cimat.mx
 %This version: February 2016
